@@ -24,13 +24,13 @@ $text_from = $json_decode->data->attributes->from;
 $allowed_numbers = array("19141234567", "19143454567");
 $txt_ack_number = "19143454567";
 
-$DID1 = "19147374140"; // Flowroute DID1
-$DID2 = "19147370082"; // Flowroute DID2
-$DID3 = "19147370083"; // Flowroute DID3
+$DID1 = "19143453122"; // Flowroute DID1
+$DID2 = "19141243221"; // Flowroute DID2
+$DID3 = "19145463455"; // Flowroute DID3
 $route_id_sip = "0";
 $route_id_mobile = "118624"; // Route Identifier
 $route_id_answeringsrv = "118894"; // Route Identifier
-$main_office_did = "19147370083"; // Route Identifier
+$main_office_did = "1914242112"; // Route Identifier
 
 
 if ($text_body =="forward" && in_array($text_from,$allowed_numbers)){
